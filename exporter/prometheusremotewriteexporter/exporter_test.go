@@ -32,8 +32,8 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/config/configmodels"
 	"go.opentelemetry.io/collector/consumer/pdata"
+	otlp "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/metrics/v1"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
-	otlp "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/metrics/v1"
 	"go.opentelemetry.io/collector/internal/testdata"
 	"go.opentelemetry.io/collector/internal/version"
 )

@@ -22,8 +22,8 @@ import (
 
 	"github.com/spf13/cast"
 
-	"go.opentelemetry.io/collector/internal/data"
-	otlpcommon "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/common/v1"
+	"go.opentelemetry.io/collector/data"
+	otlpcommon "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/common/v1"
 )
 
 func convertMapToAttributeKeyValues(attrsMap map[string]interface{}) []otlpcommon.KeyValue {

@@ -18,8 +18,8 @@
 package pdata
 
 import (
-	"go.opentelemetry.io/collector/internal/data"
-	otlptrace "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/trace/v1"
+	"go.opentelemetry.io/collector/data"
+	otlptrace "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/trace/v1"
 )
 
 // ResourceSpansSlice logically represents a slice of ResourceSpans.

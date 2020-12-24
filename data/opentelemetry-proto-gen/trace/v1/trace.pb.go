@@ -13,9 +13,9 @@ import (
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
 
-	go_opentelemetry_io_collector_internal_data "go.opentelemetry.io/collector/internal/data"
-	v11 "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/common/v1"
-	v1 "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/resource/v1"
+	go_opentelemetry_io_collector_internal_data "go.opentelemetry.io/collector/data"
+	v11 "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/common/v1"
+	v1 "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/resource/v1"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

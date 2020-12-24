@@ -15,7 +15,7 @@
 package pdata
 
 import (
-	"go.opentelemetry.io/collector/internal/data"
+	"go.opentelemetry.io/collector/data"
 )
 
 // TraceID is an alias of OTLP TraceID data type.

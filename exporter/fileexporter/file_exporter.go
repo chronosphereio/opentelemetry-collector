@@ -24,10 +24,10 @@ import (
 
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/consumer/pdata"
+	otlplogs "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/collector/logs/v1"
+	otlpmetrics "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/collector/metrics/v1"
+	otlptrace "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/collector/trace/v1"
 	"go.opentelemetry.io/collector/internal"
-	otlplogs "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/collector/logs/v1"
-	otlpmetrics "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/collector/metrics/v1"
-	otlptrace "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/collector/trace/v1"
 )
 
 // Marshaler configuration used for marhsaling Protobuf to JSON. Use default config.

@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	otlplogs "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/logs/v1"
 	"go.opentelemetry.io/collector/internal"
-	otlplogs "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/logs/v1"
 )
 
 func TestLogRecordCount(t *testing.T) {

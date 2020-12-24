@@ -20,8 +20,8 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"go.opentelemetry.io/collector/consumer/pdata"
+	otlplogs "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/logs/v1"
 	"go.opentelemetry.io/collector/internal"
-	otlplogs "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/logs/v1"
 )
 
 type logTestCase struct {

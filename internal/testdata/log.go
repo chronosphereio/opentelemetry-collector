@@ -18,9 +18,9 @@ import (
 	"time"
 
 	"go.opentelemetry.io/collector/consumer/pdata"
-	"go.opentelemetry.io/collector/internal/data"
-	otlpcommon "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/common/v1"
-	otlplogs "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/logs/v1"
+	"go.opentelemetry.io/collector/data"
+	otlpcommon "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/common/v1"
+	otlplogs "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/logs/v1"
 )
 
 var (

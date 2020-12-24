@@ -20,8 +20,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"go.opentelemetry.io/collector/internal/data"
-	otlptrace "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/trace/v1"
+	"go.opentelemetry.io/collector/data"
+	otlptrace "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/trace/v1"
 )
 
 func TestGenerateParentSpan(t *testing.T) {

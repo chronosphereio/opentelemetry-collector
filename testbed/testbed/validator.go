@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"go.opentelemetry.io/collector/consumer/pdata"
-	otlpcommon "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/common/v1"
-	otlptrace "go.opentelemetry.io/collector/internal/data/opentelemetry-proto-gen/trace/v1"
+	otlpcommon "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/common/v1"
+	otlptrace "go.opentelemetry.io/collector/data/opentelemetry-proto-gen/trace/v1"
 )
 
 // TestCaseValidator defines the interface for validating and reporting test results.
